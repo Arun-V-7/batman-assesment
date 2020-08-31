@@ -1,0 +1,63 @@
+.dataTables_wrapper {
+    padding: 15px !important;
+}
+
+div#table_id_length, div#table_id_filter {
+    padding: 15px 0;
+}
+
+.btn-lg {
+    padding: 3px 10px;
+    font-size: 14px;
+}
+.modal-body {
+    display: flow-root;
+}
+.col-md-6.title {
+    font-weight: 700;
+}
+p {
+    margin: 0;
+}
+.error-div{
+    background: #ef0a0a85;
+    border: 2px solid red;
+    border-radius: 3px;
+    color: white;
+    padding: 5px;
+}
+.student-details {
+    display: grid;
+}
+.detail-div {
+    padding: 10px;
+    border-bottom: 1px solid #8080801f;
+}
+
+.dataTables_wrapper .dataTables_filter input {
+    border: none;
+    border-bottom: 1px solid #80808063;
+    outline: none;
+}
+
+#table_id td:nth-child(5), #table_id td:nth-child(6){
+    max-width: 100px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.card-val .card {
+    background: white;
+}
+
+.card-div{
+    /* background: white; */
+    margin-bottom: 2%;
+    display: flex;
+}
+
+.col-md-6.card-val {
+    display: grid;
+    text-align: center;
+}
