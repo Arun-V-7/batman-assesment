@@ -24,15 +24,7 @@ class DashboardController extends Controller
     public function dataSource(){
         $sort = "question";
         $sortType = 'asc';
-        if (isset($_GET['sortType'])) {
-            if ($_GET['sortType'] == 'asc' || $_GET['sortType'] == 'desc') {
-                $sortType = $_GET['sortType'];
-            }
-        }
-
-        if (isset($_GET['sort'])) {
-            $sort = $_GET['sort'];
-        }
+        
         $quizDetailInstance =  Quiz::getInstance();
         $data = $quizDetailInstance->getQuizDetails($sort, $sortType);
 
